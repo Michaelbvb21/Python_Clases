@@ -12,18 +12,14 @@ def caracter_par(cadena):
     if len(cadena)>100 or len(cadena)<2:
         print('Cadena no valida')
     else:
-        j=1
+        #j=1
         for i in range(len(cadena)):
             if i!=0 and i%2!=0:
                 car=cadena[i]
                 lista_par.append(car)
                 
-    print(lista_par)            
+        print(lista_par)            
         
 
-    
-
-    
-    
 cadena=input('Ingrese un cadena de texto: ')
 caracter_par(cadena)
